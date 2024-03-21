@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-logo {
+    width: 390px; 
+    margin-top: 5px; 
+}
+
+h1 {
+    font-size: 40px; 
+    font-weight: bold; 
+    margin-top: 10px; 
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    padding: 5px; 
+}
+
+.images {
+    margin: 10px;
+    max-width: 80%; 
+    transition: transform 0.5s ease-in, filter 0.5s ease-out;
+}
+
+.images img {
+    width: 80px; 
+    height: auto; 
+}
+
+.images img:hover,
+.images img:active {
+    transform: scale(1.5);
+    filter: brightness(90%);
+}
+
+* {
+    box-sizing: border-box;
+}
